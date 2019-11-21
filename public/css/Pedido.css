@@ -1,0 +1,140 @@
+@font-face {
+	font-family: "Pacifico";
+	src: url(../fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+	font-family: "Montserrat";
+	font-weight: bold;
+	src: url(../fonts/Montserrat-Bold.ttf);
+}
+.info {
+	width: 950px;
+	margin-left:270px;
+}
+
+img {
+	border-radius: 100px;
+	height: 150px;
+	width: 150px;
+}
+
+.tipo {
+	font-size: 50px;
+	font:bold 15px;
+	font-family: "Pacifico", cursive;
+}
+
+.tipo2 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.tipo3 {
+	font-size: 1.5em;
+	color: #FF4500;
+}
+
+.wrap {
+	width: 90%;
+	max-width: 800px;
+	margin-left: 470px;
+}
+
+.formulario {
+	font-size: 16px;
+	color: #FF4500;
+	margin-bottom: 20px;
+}
+
+.formulario > div{
+	padding: 20px 0;
+}
+
+.formulario input[type="radio"] {
+	display: none;
+}
+
+.formulario .radio label {
+	color: #FF4500;
+	padding: 5px 15px 5px 51px;
+	display: inline-block;
+	position: relative;
+	font-size: 1.5em;
+	border-radius: 3px;
+	cursor: pointer;
+	-webkit-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.formulario .radio label:hover {
+	background: rgb(255,69,0,0.3);
+}
+
+.formulario .radio label:before {
+	content: "";
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	background: none;
+	border: 3px solid #FF4500;
+	border-radius: 50%;
+	position: absolute;
+	left: 17px;
+	top: 4px;
+}
+
+.formulario input[type="radio"]:checked + label {
+	padding: 5px 15px;
+	background: #FF4500;
+	color: white;
+	border-radius: 2px;
+}
+
+.formulario input[type="radio"]:checked + label:before {
+	display: none;
+}
+
+.nombre {
+	border-color: #FF4500;
+	border-radius: 10px;
+	width: 450px;
+	height: 30px;
+	font-size: 1.2em;
+	font-family: "Montserrat";
+	outline: none;
+}
+
+.seleccion {
+	width: 300px;
+	height: 30px;
+	font-size: 1.2em;
+	border-color: #FF4500;
+	border-radius: 10px;
+	font-family: "Montserrat";
+	outline: none;
+}
+
+.realizar {
+	font-family: "Montserrat";
+	font-size: 1.3em;
+	font:bold 10px;
+	background: #FF4500;
+	color: white;
+	border: none;
+	padding: 10px;
+	width: 120px;
+	border-radius: 50px;
+	transition: background .3s, color .3s;
+	cursor: pointer;
+	margin:center;
+}
+
+.realizar:hover {
+	background: coral;
+	color: white;
+}

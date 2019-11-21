@@ -1,0 +1,48 @@
+.estable-popu {
+	background: white;
+	color: black;
+	margin-left: 80px;
+	margin-right: 50px;
+}
+
+.title-tablas{
+	font-family: 'Pacifico', cursive;
+	font-size: 3em;
+}
+.sub-tablas {
+	font-size: 2em;
+}
+
+.btn-ver {
+	font:bold 15px;
+	background: #FF4500;
+	color: white;
+	border: none;
+	padding: 10px;
+	width: 100px;
+	border-radius: 50px;
+	transition: background .3s, color .3s;
+	cursor: pointer;
+	margin:center;
+}
+
+.btn-ver:hover {
+	background: coral;
+	color: white;
+}
+
+/*-----------------------------------Estilos de la imagenes-----------------------------------------*/
+.popu-img {
+	transition: .9s;
+}
+.popu-img:hover {
+	transform: scale(1.1);
+}
+
+.U {
+	transition: .1s;
+}
+
+.U:hover {
+	transform: scale(1.1);
+}

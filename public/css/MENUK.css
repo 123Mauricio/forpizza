@@ -1,0 +1,144 @@
+@font-face {
+	font-family: "Pacifico";
+	src: url(../fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+	font-family: "Montserrat";
+	font-weight: bold;
+	src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+/*------------------------------codigo del menu------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+header {
+	background: black;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	font-size: 16px;
+}
+
+.menu {
+	width: 90%;
+	max-width: 1500px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu .logo {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.menu .TI {
+	color: white;
+	font-family: 'Pacifico', cursive;
+	font-size: 2em;
+	padding: 25px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.menu .logo img {
+	vertical-align: top;
+	height: 74px;
+}
+
+.menu .btn-menu {
+	display: none;
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+.menu .enlaces {
+	display: inline-block;
+	text-align: right;
+}
+
+.menu .enlaces a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1em;
+	text-align: center;
+	font-size: 1em;
+}
+
+.menu .enlaces a:hover {
+	background: gold;
+	color: black;
+}
+
+/*-----------------------efectos del menu al subir y bajar------------------------------*/
+
+.headroom {
+	transition: transform .3s ease;
+}
+
+.headroom--pinned {
+	transform: translateY(0%);
+}
+
+.headroom--unpinned {
+	transform: translateY(-100%);
+	color: red;
+	background: rgb(0,0,0,0.6);
+}
+
+/*---------------------------BUSCADOR----------------------------*/
+.buscador {
+	top: 50;
+	background: white;
+	border-radius: 40px;
+	padding: 10px;
+	align-items: center; 
+}
+
+.buscador:hover > .search {
+	width: 200px;
+	padding: 0 6px;
+}
+
+.fa-search {
+	color: black;
+	float: right;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	transition: 0.4s;
+}
+
+.buscador:hover > .fa-search {
+	background: #FF4500;
+	color: white;
+}
+
+.search {
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: black;
+	font-size: 16px;
+	transition: 0.4s;
+	width: 0px;
+}

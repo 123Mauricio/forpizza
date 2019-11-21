@@ -1,0 +1,8 @@
+.b::-webkit-scrollbar {
+	width: 9px;
+}
+
+.b::-webkit-scrollbar-thumb {
+	background: gold;
+	border-radius: 40px;
+}

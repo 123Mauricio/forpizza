@@ -1,0 +1,21 @@
+body{
+	background-color: #333;
+}
+.tics{
+	float: left;
+}
+.usuario{
+	position:absolute;
+	bottom: 800px;	
+}
+.utc{
+	float: right;
+}
+.well{
+	width: 1000px;
+	height: 300px;
+	margin-top: 150px;
+}
+.centrado{
+	bottom: 400px;
+}

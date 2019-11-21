@@ -1,0 +1,84 @@
+@font-face {
+	font-family: "Pacifico";
+	src: url(../fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+	font-family: "Montserrat";
+	font-weight: bold;
+	src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+.kankin {
+	background: white;
+	color: black;
+	margin-left: 50px;
+}
+
+.log {
+	width: 200px;
+}
+
+.linea {
+	margin-left: 80px;
+	background: #FF4500;
+}
+.linea2 {
+	margin-left: 80px;
+	background: dimgray;
+}
+
+h4 {
+	font-family: "Montserrat";
+	font-weight: bold;
+	text-align: right;
+}
+
+.encabezado {
+	font-family: 'Pacifico', cursive;
+	font-size: 3em;
+
+}
+
+/*----------------------------------tabla pizzas--------------------------------------*/
+.pizzasK {
+	margin-left: 70px;
+}
+
+.pizzas {
+	border-radius: 100px;
+	height: 200px;
+	width: 200px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 40px;
+}
+
+h3 {
+	font-family: "Montserrat";
+	color: #FF4500;
+	text-align: center;
+}
+
+.btn-pedir {
+	font:bold 15px;
+	background: #FF4500;
+	color: white;
+	border: none;
+	padding: 10px;
+	width: 100px;
+	border-radius: 50px;
+	transition: background .3s, color .3s;
+	cursor: pointer;
+	margin:center;
+}
+
+.btn-pedir:hover {
+	background: coral;
+	color: white;
+}

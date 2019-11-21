@@ -1,0 +1,270 @@
+@font-face {
+	font-family: "Pacifico";
+	src: url(../fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+	font-family: "Montserrat";
+	font-weight: bold;
+	src: url(../fonts/Montserrat-Bold.ttf);
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*Estilo primera parte*/
+
+img {
+	display: block;
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+}
+
+.container--flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.column {
+	width: 100%;
+}
+
+/*Estilo del header*/
+
+.main-header {
+	width: 100%;
+	border: 0px;
+}
+
+.logo {
+	font-size: 2em;
+	color: white;
+	padding: 20px;
+	font-family: 'Pacifico', cursive;
+	font-weight: 100;
+}
+
+/*Estilos de banner*/
+
+.banner {
+	margin-top: -168px;
+	position: relative;
+	z-index: -100;
+}
+
+.column--50 {
+	width: 49%;
+}
+.column--50-25 {
+	width: 24.5%;
+}
+
+.column--33 {
+	width: 25%;
+}
+
+.banner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgb(0,0,0,0.6);
+	z-index: 1000;
+	top: 0;
+}
+
+.banner__img {
+	width: 100%;
+	height: 600px;
+	object-fit: cover; 
+	margin: -8px;
+}
+
+.banner__content {
+	width: 90%;
+	color: white;
+	text-align: center;
+	position: absolute;
+	z-index: 1500;
+	top: 60%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.main {
+	padding-bottom: 15px;
+}
+
+/*Estilos principales*/
+
+.group--color .container {
+	background: #FF4500;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.main__title {
+	margin: 15px 0;
+	font-size: 3em;
+	font-family: 'Pacifico', cursive;
+	font-weight: 100;
+}
+
+.main__txt {
+	padding: 20px;
+	line-height: 25px;
+	font-size: 1.4em;
+}
+
+.column__title {
+	font-size: 1.3em;
+}
+
+.btn {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+	background: #FF4500;
+	color: white;
+	padding: 10px;
+	border-radius: 40px;
+}
+
+.main__about__description .btn {
+	margin: 0px;
+}
+
+.main__about__description {
+	margin-top: 40px;
+}
+
+.group__title {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	font-weight: 100;
+	font-size: 3em;
+	margin: 30px;
+}
+
+.today-special .column {
+	margin-bottom: 30px;
+	text-align: center;
+	border: 2px solid #ddd;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.today-special__img {
+	height: 200px;
+	object-fit: cover;
+}
+
+.today-special__title {
+	text-align: center;
+	font-size: 1.2em;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.today-special__price {
+	font-size: 1.5em;
+	color: #FF4500;
+	font-weight: bold;
+}
+
+/*Estilos del footer*/
+
+.main-footer {
+	background: #24303E;
+	color: white;
+	padding: 10px;
+	padding-top: 40px; 
+	padding-bottom: 40px;
+	font-size: .9em;
+}
+
+.copy {
+	text-align: center;
+	margin: auto;
+	margin-top: 15px;
+}
+
+.main-nav {
+	background: rgb(0,0,0,0.85);
+
+}
+
+/*iconos-------------------------------------*/
+.main-footer .icon-facebook {
+	color: white;
+	text-decoration: none;
+	position: relative;	
+	right: 0px;
+}
+.main-footer .icon-facebook:before {
+	position: relative;
+	top: 2px;
+	right: 5px;
+}
+
+.main-footer .icon-mail {
+	color: white;
+	text-decoration: none;
+	position: relative;	
+	right: 0px;
+}
+.main-footer .icon-mail:before {
+	position: relative;
+	top: 2px;
+	right: 5px;
+}
+
+.main-footer .icon-whatsapp {
+	color: white;
+	text-decoration: none;
+	position: relative;	
+	right: 0px;
+}
+.main-footer .icon-whatsapp:before {
+	position: relative;
+	top: 2px;
+	right: 5px;
+}
+
+.main-footer .icon-ubicacion {
+	color: white;
+	text-decoration: none;
+	position: relative;	
+	right: 0px;
+}
+.main-footer .icon-ubicacion:before {
+	position: relative;
+	top: 2px;
+	right: 5px;
+}
+
+.a {
+	left: 0px;
+	right: 0px;
+	position: absolute;
+}
